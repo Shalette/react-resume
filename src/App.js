@@ -60,7 +60,6 @@ const ListItem = styled.li({
 const useStyles = makeStyles({
   root: {
     textAlign: 'justify',
-
     background: 'white',
     padding: '1em',
     height: '100vh',
@@ -98,12 +97,30 @@ export default function App() {
         <p>Front end developer &amp; student at BMSIT&nbsp;&&nbsp;M</p>
         <h5>CAREER OBJECTIVES</h5>
         <Line></Line>
-        <Summary>Currently pursuing B.E. in Computer Science & Engineering in BMS Institute of Technology. Will graduate in the year 2020. As a passionate web developer and designer, I strive to work hard to increase my knowledge. My goal is to become a UI/UX designer and to do an MS in Human Computer Interaction. </Summary>
+        <Summary>Currently pursuing B.E. in Computer Science & Engineering in BMS Institute of Technology. Will graduate in the year 2020. As a passionate web developer and designer, I strive to work hard to increase my knowledge. My goal is to become a UI/UX designer and to do an MS in Human Computer Interaction.
+        {/* <br/><br/>
+         <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
+          </Link></small>
+          </center> */}
+          </Summary>
       </Grid>
 
       <Grid id="right" className={classes.right} item sm={12} md={7}>
       <Heading>Experience</Heading>
       <ListMain>
+
+      <ListItem><b>Front-end Developer<br /><small>Urbanstop | Nov 2019 - Ongoing</small></b></ListItem>
+      <ListInfo>
+        <ListItem>Creating several screens using React Native</ListItem>
+        <ListItem>Learning the principles of UX and applying it to the products</ListItem>
+      </ListInfo>
+
+      <ListItem><b>Designer<br/><small>Nativity Church | Nov 2019</small></b></ListItem>
+      <ListInfo>
+        <ListItem>Designed the logo for the carol competition – Noelle Cantora</ListItem>
+        <ListItem>Created multiple posters to advertise the competition</ListItem>
+        <ListItem>Made certificates and stickers</ListItem>        
+      </ListInfo>
 
       <ListItem><b>Design Intern<br /><small>CocoFresh | Sept 2019</small></b></ListItem>
       <ListInfo>
@@ -133,10 +150,16 @@ export default function App() {
       <Heading>Projects</Heading>
 
       <ListMain>
-      <ListItem><b>InfoCrypt<br /><small>Aug 2019 - Ongoing</small></b></ListItem>
+      <ListItem><b>InfoCrypt<br /><small>Sept 2019 - Ongoing</small></b></ListItem>
       <ListInfo>
         <ListItem>Implemented a basic version of partially homomorphic system (Paillier's Encryption)</ListItem>
         <ListItem>Researching methods to perform machine learning on encrypted data</ListItem>
+      </ListInfo>
+
+      <ListItem><b>XGallery<br /><small>Aug 2019 - Ongoing</small></b></ListItem>
+      <ListInfo>
+        <ListItem>Researching ways to plot relations between pixels of an image</ListItem>
+        <ListItem>Attempting to create a system that selects 4 colours from an image to create a pleasing user interface</ListItem>
       </ListInfo>
 
       <ListItem><b>Profile Filter<br /><small>July 2019</small></b></ListItem>
@@ -163,7 +186,7 @@ export default function App() {
       <ListItem><b>Parallax Effect Demonstration<br /><small>Mar 2019</small></b></ListItem>
       <ListInfo>
         <ListItem>Site:&nbsp;
-          <Link target="_blank" href="https://shalette.github.io/">https://shalette.github.io
+          <Link target="_blank" href="https://parallax-scene.netlify.com/">https://parallax-scene.netlify.com/
           </Link></ListItem>
         <ListItem>Made layers of a vector image</ListItem>
         <ListItem>Created a web page that implements parallax effect when the user is on a laptop</ListItem>
@@ -171,7 +194,7 @@ export default function App() {
 
       <ListItem><b>Complaint Management System<br /><small>Jan 2019 - Mar 2019</small></b></ListItem>
       <ListInfo>
-        <ListItem>Site:&nbsp;<Link target="_blank" href="https://bmsitcms.000webhostapp.com/">http://bmsitsclub.in/cms/
+        <ListItem>Site:&nbsp;<Link target="_blank" href="https://bmsitcms.000webhostapp.com/">https://bmsitcms.000webhostapp.com/
         </Link></ListItem>
         <ListItem>Created the UI for both the student and administrator sides of the site</ListItem>
         <ListItem>Created a guide for future developers to handle the site and delivered the project to the department</ListItem>
@@ -210,6 +233,10 @@ export default function App() {
         <ListItem><b>Github&nbsp;Profile:</b>
           <Link target="_blank" href="https://github.com/Shalette">
           &nbsp;https://github.com/Shalette</Link>
+        </ListItem>
+        <ListItem><b>Canva&nbsp;Profile:</b>
+          <Link target="_blank" href="https://www.canva.com/shalettedsouza">
+          &nbsp;https://www.canva.com/shalettedsouza</Link>
         </ListItem>
       </ListMain>
       <Heading style={{paddingTop: '23px'}}>Accomplishments</Heading>
@@ -256,8 +283,35 @@ export default function App() {
       <ListMain>
         <ListItem>Fiction Writing: <Link href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
         <ListItem>Book Cover Designing: Created all covers posted on the blog listed above</ListItem>
-        <ListItem>Solo and Choir Singing: Handled roles of an alto, tenor and soprano</ListItem>
-        <ListItem>Instrumententalist: Proficient with the keyboard and guitar</ListItem>
+        <ListItem>Solo and Choir Singing: Handled roles of an alto, tenor and soprano
+          <ListSub>
+              <ListItem>Member of Nativity Youth Choir</ListItem>
+              <ListItem>Member of Nativity English Choir</ListItem>
+              <ListItem>Member of Nativity Konkani Choir</ListItem>
+              <ListItem>Singer for events</ListItem>
+          </ListSub>
+        </ListItem>
+        <ListItem>Instrumententalist: Proficient with the keyboard and guitar
+          <ListSub>
+              <ListItem>Keyboard Player for Nativity Konkani Choir</ListItem>
+              <ListItem>Keyboard Player for events</ListItem>
+              <ListItem>Guitar Player for events</ListItem>
+          </ListSub>
+        </ListItem>
+      </ListMain>
+
+      <Heading>Workshops &amp; Certifications</Heading>
+      <ListMain>
+        <ListItem>Google QuikLabs
+          <ListSub>
+              <ListItem>Baseline: Data, ML, AI <br /><small>Aug 2019</small></ListItem>
+              <ListItem>GCP Essentials<br /><small>Apr 2019</small></ListItem>
+          </ListSub>
+        </ListItem>
+        <ListItem>MTA: Introduction to Programming Using JavaScript - Certified 2019<br /><small>Feb 2019 </small></ListItem>
+        <ListItem>Internshala - Web Development<br /><small>Sept 2018</small></ListItem>
+        <ListItem>5 Days Open Course on Understanding Blockchain at BMSIT&M<br /><small>Aug 2018</small>
+        </ListItem>
       </ListMain>
       </Grid>
 
