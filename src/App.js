@@ -178,7 +178,7 @@ export default function App() {
       </ListInfo>
       </ListMain>
       </Grid>
-      
+
       <Grid id="left" className={classes.left} item sm={12} md={5}>
       <Heading>Skills</Heading>
       <ListMain>
@@ -254,10 +254,10 @@ export default function App() {
 
       <Heading>Activities</Heading>
       <ListMain>
-        <ListItem>Fiction Writing</ListItem>
-        <ListItem>Book Cover Designing</ListItem>
-        <ListItem>Solo and Choir Singing</ListItem>
-        <ListItem>Instrumententalist</ListItem>
+        <ListItem>Fiction Writing: <Link href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
+        <ListItem>Book Cover Designing: Created all covers posted on the blog listed above</ListItem>
+        <ListItem>Solo and Choir Singing: Handled roles of an alto, tenor and soprano</ListItem>
+        <ListItem>Instrumententalist: Proficient with the keyboard and guitar</ListItem>
       </ListMain>
       </Grid>
 
