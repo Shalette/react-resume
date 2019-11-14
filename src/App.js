@@ -141,7 +141,7 @@ export default function App() {
 
       <ListItem><b>Profile Filter<br /><small>July 2019</small></b></ListItem>
       <ListInfo>
-        <ListItem>Created a basic filter based on skill set using Laravel</ListItem>
+        <ListItem>Created a basic filter to search user profiles based on skill set using Laravel</ListItem>
         <ListItem>Implemented Bootstrap4 to create the UI</ListItem>
       </ListInfo>
 
@@ -171,7 +171,7 @@ export default function App() {
 
       <ListItem><b>Complaint Management System<br /><small>Jan 2019 - Mar 2019</small></b></ListItem>
       <ListInfo>
-        <ListItem>Site:&nbsp;<Link target="_blank" href="http://bmsitsclub.in/cms/">http://bmsitsclub.in/cms/
+        <ListItem>Site:&nbsp;<Link target="_blank" href="https://bmsitcms.000webhostapp.com/">http://bmsitsclub.in/cms/
         </Link></ListItem>
         <ListItem>Created the UI for both the student and administrator sides of the site</ListItem>
         <ListItem>Created a guide for future developers to handle the site and delivered the project to the department</ListItem>
