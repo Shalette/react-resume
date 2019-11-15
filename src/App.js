@@ -310,7 +310,7 @@ export default function App() {
               <ListItem>GCP Essentials<br /><small>Apr 2019</small></ListItem>
           </ListSub>
         </ListItem>
-        <ListItem>MTA: Introduction to Programming Using JavaScript - Certified 2019<br /><small>Feb 2019 </small></ListItem>
+        <ListItem>MTA: Introduction to Programming Using JavaScript<br /><small>Feb 2019 </small></ListItem>
         <ListItem>Internshala - Web Development<br /><small>Sept 2018</small></ListItem>
         <ListItem>5 Days Open Course on Understanding Blockchain at BMSIT&M<br /><small>Aug 2018</small>
         </ListItem>
