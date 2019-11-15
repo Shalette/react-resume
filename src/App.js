@@ -40,6 +40,7 @@ const Heading = styled.h6({
   paddingBottom: '0.5em',
   margin: '1.5em',
   borderBottom: '0.01em solid #888',
+  textAlign: 'left',
 });
 
 const ListMain = styled.ul({
@@ -98,10 +99,10 @@ export default function App() {
         <h5>CAREER OBJECTIVES</h5>
         <Line></Line>
         <Summary>Currently pursuing B.E. in Computer Science & Engineering in BMS Institute of Technology. Will graduate in the year 2020. As a passionate web developer and designer, I strive to work hard to increase my knowledge. My goal is to become a UI/UX designer and to do an MS in Human Computer Interaction.
-        {/* <br/><br/>
+        <br/><br/>
          <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
           </Link></small>
-          </center> */}
+          </center>
           </Summary>
       </Grid>
 
