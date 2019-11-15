@@ -251,35 +251,36 @@ export default function App() {
       </ListMain>
 
       <Heading>Education</Heading>
-      <table>
-        <thead><tr><th>Qualification</th><th>Board</th><th>Institute</th><th>Year Of Passing</th><th>Score</th></tr></thead>
-        <tbody>
-          <tr>
-            <td>B.E.</td>
-            <td>V.T.U.</td>
-            <td>BMS Institute of Technology</td>
-            <td>2020 (to be completed)</td>
-            <td>8.15 (CGPA up to 6th semester)</td>
-          </tr>
+      <div class="overflow">
+        <table>
+          <thead><tr><th>Qualification</th><th>Board</th><th>Institute</th><th>Year Of Passing</th><th>Score</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>B.E.</td>
+              <td>V.T.U.</td>
+              <td>BMS Institute of Technology</td>
+              <td>2020 (to be completed)</td>
+              <td>8.15 (CGPA up to 6th semester)</td>
+            </tr>
 
-          <tr>
-            <td>P.U.</td>
-            <td>Karnataka</td>
-            <td>B.E.L. Composite P.U. College</td>
-            <td>2016</td>
-            <td>94.3%</td>
-          </tr>
+            <tr>
+              <td>P.U.</td>
+              <td>Karnataka</td>
+              <td>B.E.L. Composite P.U. College</td>
+              <td>2016</td>
+              <td>94.3%</td>
+            </tr>
 
-          <tr>
-            <td>Class 10</td>
-            <td>I.C.S.E.</td>
-            <td>M.E.S. Kishore Kendra Public School</td>
-            <td>2014</td>
-            <td>94.3%</td>
-          </tr>
-        </tbody>
-      </table>
-
+            <tr>
+              <td>Class 10</td>
+              <td>I.C.S.E.</td>
+              <td>M.E.S. Kishore Kendra Public School</td>
+              <td>2014</td>
+              <td>94.3%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <Heading>Activities</Heading>
       <ListMain>
         <ListItem>Fiction Writing: <Link href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
