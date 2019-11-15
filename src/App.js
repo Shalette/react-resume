@@ -105,7 +105,7 @@ export default function App() {
           </Summary>
       </Grid>
 
-      <Grid id="right" className={classes.right} item sm={12} md={7}>
+      <Grid id="right" className={classes.right} item sm={12} md={7} xs={12}>
       <Heading>Experience</Heading>
       <ListMain>
 
@@ -202,7 +202,7 @@ export default function App() {
       </ListMain>
       </Grid>
 
-      <Grid id="left" className={classes.left} item sm={12} md={5}>
+      <Grid id="left" className={classes.left} item sm={12} md={5} xs={12}>
       <Heading>Skills</Heading>
       <ListMain>
         <ListItem><b>Programming Languages: </b>PHP, SQL, HTML, CSS, AJAX, JQuery, JavaScript, Java, Python, C</ListItem>
