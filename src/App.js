@@ -100,9 +100,9 @@ export default function App() {
         <Line></Line>
         <Summary>Currently pursuing B.E. in Computer Science & Engineering in BMS Institute of Technology. Will graduate in the year 2020. As a passionate web developer and designer, I strive to work hard to increase my knowledge. My goal is to become a UI/UX designer and to do an MS in Human Computer Interaction.
         <br/><br/>
-         <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
+         {/* <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
           </Link></small>
-          </center>
+          </center> */}
           </Summary>
       </Grid>
 
@@ -301,7 +301,7 @@ export default function App() {
         </ListItem>
       </ListMain>
 
-      <Heading>Workshops &amp; Certifications</Heading>
+      <Heading>Workshops&nbsp;&amp; Certifications</Heading>
       <ListMain>
         <ListItem>Google QuikLabs
           <ListSub>
