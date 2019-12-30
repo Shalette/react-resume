@@ -238,7 +238,7 @@ export default function App() {
       <ListInfo>
         <ListItem>Site:&nbsp;<Link target="_blank" href="http://services.selectiall.com">http://services.selectiall.com</Link></ListItem>
         <ListItem>Designed and implemented a database for the site.</ListItem>
-        <ListItem>Recreated the entire UI of the site using Bootstrap3.<br />Original version:&nbsp;<Link target="_blank" href="http://www.selectiall.com">https://www.selectiall.com</Link></ListItem>
+        <ListItem>Recreated the entire UI of the site using Bootstrap3.<br />Original version (Before redesign):&nbsp;<Link target="_blank" href="http://www.selectiall.com">https://www.selectiall.com</Link></ListItem>
         <ListItem>Connected the front end to the back end of the site using PHP</ListItem>
       </ListInfo>
 
