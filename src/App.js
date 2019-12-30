@@ -101,8 +101,9 @@ export default function App() {
           <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;8861556855</Link> <br/>
           <b>Email:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="mailto:shalettedsouza@gmail.com">&nbsp;&nbsp;shalettedsouza@gmail.com</Link>
           <br/><br/>
-          {/* <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
-          </Link></small>
+          {/* <center>
+            <small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
+            </Link></small>
           </center> */}
         </Summary>
       </Grid>
