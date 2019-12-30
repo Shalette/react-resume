@@ -18,7 +18,7 @@ const theme = createMuiTheme({
   }
 });
 
-const Name = styled.h2({
+const Name = styled.h3({
   fontVariant: 'small-caps',
   fontFamily:'Raleway'
 });
@@ -29,9 +29,9 @@ const Line = styled.hr({
   width: '50%',
   opacity: '0.1',
 });
-const Summary = styled.p({
+const Summary = styled.span({
   padding:'1em',
-  textAlign: 'justify',
+  textAlign: 'center',
   fontSize: '0.6em',
 });
 const Heading = styled.h6({
@@ -96,16 +96,121 @@ export default function App() {
       <Grid className={classes.title} item xs={12}>
         <Name>Shalette D'Souza</Name>
         <p>Front end developer &amp; student at BMSIT&nbsp;&&nbsp;M</p>
-        <h5>CAREER OBJECTIVES</h5>
         <Line></Line>
-        <Summary>Currently pursuing B.E. in Computer Science & Engineering in BMS Institute of Technology. Will graduate in the year 2020. As a passionate web developer and designer, I strive to work hard to increase my knowledge. My goal is to become a UI/UX designer and to do an MS in Human Computer Interaction.
-        <br/><br/>
-         {/* <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
+        <Summary>
+          <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;8861556855</Link> <br/>
+          <b>Email:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="mailto:shalettedsouza@gmail.com">&nbsp;&nbsp;shalettedsouza@gmail.com</Link>
+          <br/><br/>
+          <center><small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
           </Link></small>
-          </center> */}
-          </Summary>
+          </center>
+        </Summary>
       </Grid>
 
+      <Grid id="left" className={classes.left} item sm={12} md={5} xs={12}>
+
+      <Heading>Education</Heading>
+      <div class="overflow">
+        <table>
+          <thead><tr><th>Qualification</th><th>Board</th><th>Institute</th><th>Year Of Passing</th><th>Score</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>B.E.</td>
+              <td>V.T.U.</td>
+              <td>BMS Institute of Technology</td>
+              <td>2020 (to be completed)</td>
+              <td>8.13 (CGPA up to 6th semester)</td>
+            </tr>
+
+            <tr>
+              <td>P.U.</td>
+              <td>Karnataka</td>
+              <td>B.E.L. Composite P.U. College</td>
+              <td>2016</td>
+              <td>94.3%</td>
+            </tr>
+
+            <tr>
+              <td>Class 10</td>
+              <td>I.C.S.E.</td>
+              <td>M.E.S. Kishore Kendra Public School</td>
+              <td>2014</td>
+              <td>94.3%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <Heading>Profile Links</Heading>
+      <ListMain>
+        <ListItem><b>Linkedin&nbsp;Profile:</b>
+          <Link target="_blank" href="https://in.linkedin.com/in/shalette-d-souza">
+          &nbsp;https://in.linkedin.com/in/shalette-d-souza</Link>
+        </ListItem>
+          <ListItem><b>Website:</b>
+          <Link target="_blank"  href="https://shalette.github.io/">
+          &nbsp;https://shalette.github.io</Link>
+        </ListItem>
+        <ListItem><b>Github&nbsp;Profile:</b>
+          <Link target="_blank" href="https://github.com/Shalette">
+          &nbsp;https://github.com/Shalette</Link>
+        </ListItem>
+        <ListItem><b>Canva&nbsp;Profile:</b>
+          <Link target="_blank" href="https://www.canva.com/shalettedsouza">
+          &nbsp;https://www.canva.com/shalettedsouza</Link>
+        </ListItem>
+      </ListMain>
+
+      <Heading>Skills</Heading>
+      <ListMain>
+        <ListItem><b>Programming Languages: </b>PHP, SQL, HTML, CSS, AJAX, JQuery, JavaScript, Java, Python, C</ListItem>
+        <ListItem><b>Frameworks, Libraries and Systems: </b>Google Materialize, Bootstrap, Material UI, CSS Grid, Flexbox, Django, React, Laravel, Flask</ListItem>
+        <ListItem><b>Miscellaneous: </b>
+          <ListSub>
+            <ListItem>Strong Work Ethic</ListItem>
+            <ListItem>Thirst For Learning</ListItem>
+            <ListItem>Adaptability</ListItem>
+            <ListItem>Communication Skills</ListItem>
+            <ListItem>Creativity</ListItem>
+          </ListSub>
+        </ListItem>
+      </ListMain>
+
+      <Heading>Activities</Heading>
+      <ListMain>
+        <ListItem>Fiction Writing: <Link href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
+        <ListItem>Book Cover Designing: Created all covers posted on the blog listed above</ListItem>
+        <ListItem>Solo and Choir Singing: Handled roles of an alto, tenor and soprano
+          <ListSub>
+              <ListItem>Member of Nativity Choir (Non-Profit Organization)</ListItem>
+              <ListItem>Singer for events</ListItem>
+          </ListSub>
+        </ListItem>
+        <ListItem>Instrumententalist: Proficient with the keyboard and guitar
+          <ListSub>
+              <ListItem>Keyboard Player for Nativity Choir</ListItem>
+              <ListItem>Keyboard Player for events</ListItem>
+              <ListItem>Guitar Player for events</ListItem>
+          </ListSub>
+        </ListItem>
+      </ListMain>
+
+      <Heading>Workshops&nbsp;&amp; Certifications</Heading>
+      <ListMain>
+        <ListItem>Google QuikLabs
+          <ListSub>
+              <ListItem>Baseline: Data, ML, AI <br /><small>Aug 2019</small></ListItem>
+              <ListItem>GCP Essentials<br /><small>Apr 2019</small></ListItem>
+          </ListSub>
+        </ListItem>
+        <ListItem>MTA: Introduction to Programming Using JavaScript<br /><small>Feb 2019 </small></ListItem>
+        <ListItem>Internshala - Web Development<br /><small>Sept 2018</small></ListItem>
+        <ListItem>5 Days Open Course on Understanding Blockchain at BMSIT&M<br /><small>Aug 2018</small>
+        </ListItem>
+      </ListMain>
+      </Grid>
+
+    
       <Grid id="right" className={classes.right} item sm={12} md={7} xs={12}>
       <Heading>Experience</Heading>
       <ListMain>
@@ -116,7 +221,7 @@ export default function App() {
         <ListItem>Learning the principles of UX and applying it to the products</ListItem>
       </ListInfo>
 
-      <ListItem><b>Designer<br/><small>Nativity Church | Nov 2019</small></b></ListItem>
+      <ListItem><b>Designer<br/><small>Nativity Church (Non-Profit Organization) | Nov 2019</small></b></ListItem>
       <ListInfo>
         <ListItem>Designed the logo for the carol competition – Noelle Cantora</ListItem>
         <ListItem>Created multiple posters to advertise the competition</ListItem>
@@ -132,8 +237,8 @@ export default function App() {
       <ListItem><b>Web Development Intern<br /><small>Selectiall | Oct 2018 - Dec 2018</small></b></ListItem>
       <ListInfo>
         <ListItem>Site:&nbsp;<Link target="_blank" href="http://services.selectiall.com">http://services.selectiall.com</Link></ListItem>
-        <ListItem>Designed and implemented a database for the site</ListItem>
-        <ListItem>Created the entire UI of the site using Bootstrap3</ListItem>
+        <ListItem>Designed and implemented a database for the site.</ListItem>
+        <ListItem>Recreated the entire UI of the site using Bootstrap3.<br />Original version:&nbsp;<Link target="_blank" href="http://www.selectiall.com">https://www.selectiall.com</Link></ListItem>
         <ListItem>Connected the front end to the back end of the site using PHP</ListItem>
       </ListInfo>
 
@@ -155,12 +260,6 @@ export default function App() {
       <ListInfo>
         <ListItem>Implemented a basic version of partially homomorphic system (Paillier's Encryption)</ListItem>
         <ListItem>Researching methods to perform machine learning on encrypted data</ListItem>
-      </ListInfo>
-
-      <ListItem><b>XGallery<br /><small>Aug 2019 - Ongoing</small></b></ListItem>
-      <ListInfo>
-        <ListItem>Researching ways to plot relations between pixels of an image</ListItem>
-        <ListItem>Attempting to create a system that selects 4 colours from an image to create a pleasing user interface</ListItem>
       </ListInfo>
 
       <ListItem><b>Profile Filter<br /><small>July 2019</small></b></ListItem>
@@ -198,126 +297,13 @@ export default function App() {
         <ListItem>Site:&nbsp;<Link target="_blank" href="https://bmsitcms.000webhostapp.com/">https://bmsitcms.000webhostapp.com/
         </Link></ListItem>
         <ListItem>Created the UI for both the student and administrator sides of the site</ListItem>
-        <ListItem>Created a guide for future developers to handle the site and delivered the project to the department</ListItem>
+        <ListItem>Maintained documentation for both UI and working of system</ListItem>
       </ListInfo>
       </ListMain>
+
       </Grid>
 
-      <Grid id="left" className={classes.left} item sm={12} md={5} xs={12}>
-      <Heading>Skills</Heading>
-      <ListMain>
-        <ListItem><b>Programming Languages: </b>PHP, SQL, HTML, CSS, AJAX, JQuery, JavaScript, Java, Python, C</ListItem>
-        <ListItem><b>Frameworks, Libraries and Systems: </b>Google Materialize, Bootstrap, Material UI, CSS Grid, Flexbox, Django, React, Laravel, Flask</ListItem>
-        <ListItem><b>Miscellaneous: </b>
-          <ListSub>
-            <ListItem>Strong Work Ethic</ListItem>
-            <ListItem>Thirst For Learning</ListItem>
-            <ListItem>Adaptability</ListItem>
-            <ListItem>Communication Skills</ListItem>
-            <ListItem>Creativity</ListItem>
-          </ListSub>
-        </ListItem>
-      </ListMain>
-
-      <Heading>Contact Information</Heading>
-      <ListMain>
-        <ListItem><b>Phone Number:</b> +91&nbsp;8861556855</ListItem>
-        <ListItem><b>Email: shalettedsouza@gmail.com</b></ListItem>
-        <ListItem><b>Linkedin&nbsp;Profile:</b>
-          <Link target="_blank" href="https://in.linkedin.com/in/shalette-d-souza">
-          &nbsp;https://in.linkedin.com/in/shalette-d-souza</Link>
-        </ListItem>
-          <ListItem><b>Website:</b>
-          <Link target="_blank"  href="https://shalette.github.io/">
-          &nbsp;https://shalette.github.io</Link>
-        </ListItem>
-        <ListItem><b>Github&nbsp;Profile:</b>
-          <Link target="_blank" href="https://github.com/Shalette">
-          &nbsp;https://github.com/Shalette</Link>
-        </ListItem>
-        <ListItem><b>Canva&nbsp;Profile:</b>
-          <Link target="_blank" href="https://www.canva.com/shalettedsouza">
-          &nbsp;https://www.canva.com/shalettedsouza</Link>
-        </ListItem>
-      </ListMain>
-      <Heading style={{paddingTop: '23px'}}>Accomplishments</Heading>
-      <ListMain>
-        <ListItem>Scored 331/340 on the GRE and 116/120 on the TOEFL in July 2019</ListItem>
-        <ListItem>Obtained 2nd place consecutively in the three most recent college project presentations (PBLs)</ListItem>
-        <ListItem>Won 2nd place in Solo Singing out of 100 students during Utsaha 2019</ListItem>
-        <ListItem>Secured 19th place among more than 2000 participants in a national level mock placement competition, Placement Heat 2.0, conducted by Talent Battle in 2018
-        </ListItem>
-        <ListItem>Won multiple choir competitions in Bangalore</ListItem>
-      </ListMain>
-
-      <Heading>Education</Heading>
-      <div class="overflow">
-        <table>
-          <thead><tr><th>Qualification</th><th>Board</th><th>Institute</th><th>Year Of Passing</th><th>Score</th></tr></thead>
-          <tbody>
-            <tr>
-              <td>B.E.</td>
-              <td>V.T.U.</td>
-              <td>BMS Institute of Technology</td>
-              <td>2020 (to be completed)</td>
-              <td>8.15 (CGPA up to 6th semester)</td>
-            </tr>
-
-            <tr>
-              <td>P.U.</td>
-              <td>Karnataka</td>
-              <td>B.E.L. Composite P.U. College</td>
-              <td>2016</td>
-              <td>94.3%</td>
-            </tr>
-
-            <tr>
-              <td>Class 10</td>
-              <td>I.C.S.E.</td>
-              <td>M.E.S. Kishore Kendra Public School</td>
-              <td>2014</td>
-              <td>94.3%</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <Heading>Activities</Heading>
-      <ListMain>
-        <ListItem>Fiction Writing: <Link href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
-        <ListItem>Book Cover Designing: Created all covers posted on the blog listed above</ListItem>
-        <ListItem>Solo and Choir Singing: Handled roles of an alto, tenor and soprano
-          <ListSub>
-              <ListItem>Member of Nativity Youth Choir</ListItem>
-              <ListItem>Member of Nativity English Choir</ListItem>
-              <ListItem>Member of Nativity Konkani Choir</ListItem>
-              <ListItem>Singer for events</ListItem>
-          </ListSub>
-        </ListItem>
-        <ListItem>Instrumententalist: Proficient with the keyboard and guitar
-          <ListSub>
-              <ListItem>Keyboard Player for Nativity Konkani Choir</ListItem>
-              <ListItem>Keyboard Player for events</ListItem>
-              <ListItem>Guitar Player for events</ListItem>
-          </ListSub>
-        </ListItem>
-      </ListMain>
-
-      <Heading>Workshops&nbsp;&amp; Certifications</Heading>
-      <ListMain>
-        <ListItem>Google QuikLabs
-          <ListSub>
-              <ListItem>Baseline: Data, ML, AI <br /><small>Aug 2019</small></ListItem>
-              <ListItem>GCP Essentials<br /><small>Apr 2019</small></ListItem>
-          </ListSub>
-        </ListItem>
-        <ListItem>MTA: Introduction to Programming Using JavaScript<br /><small>Feb 2019 </small></ListItem>
-        <ListItem>Internshala - Web Development<br /><small>Sept 2018</small></ListItem>
-        <ListItem>5 Days Open Course on Understanding Blockchain at BMSIT&M<br /><small>Aug 2018</small>
-        </ListItem>
-      </ListMain>
       </Grid>
-
-    </Grid>
     </Container>
     </MuiThemeProvider>
   );
