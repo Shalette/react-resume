@@ -179,7 +179,7 @@ export default function App() {
 
       <Heading>Activities</Heading>
       <ListMain>
-        <ListItem>Fiction Writing: <Link href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
+        <ListItem>Fiction Writing: <Link target="_blank" href="https://artinwords.home.blog/">https://artinwords.home.blog</Link></ListItem>
         <ListItem>Book Cover Designing: Created all covers posted on the blog listed above</ListItem>
         <ListItem>Solo and Choir Singing: Handled roles of an alto, tenor and soprano
           <ListSub>
@@ -216,10 +216,17 @@ export default function App() {
       <Heading>Experience</Heading>
       <ListMain>
 
-      <ListItem><b>Front-end Developer<br /><small>Urbanstop | Nov 2019 - Ongoing</small></b></ListItem>
+      <ListItem><b>Front-end Developer<br /><small>Informatica | Jan 2020 - Ongoing</small></b></ListItem>
       <ListInfo>
-        <ListItem>Creating several screens using React Native</ListItem>
-        <ListItem>Learning the principles of UX and applying it to the products</ListItem>
+        <ListItem>Working with cloud based software and replicating customer issues in order to resolve them</ListItem>
+        <ListItem>Trained in Power Center & Cloud Data Integration</ListItem>
+        <ListItem>Learned working with Amazon ecosystems including S3, Salesforce and its related components such as Outbound messaging.</ListItem>
+      </ListInfo>
+
+      <ListItem><b>Front-end Developer<br /><small>Urbanstop | Nov 2019 - Jan 2020</small></b></ListItem>
+      <ListInfo>
+        <ListItem>Created several screens using React Native</ListItem>
+        <ListItem>Learned how to apply the principles of UX to products</ListItem>
       </ListInfo>
 
       <ListItem><b>Designer<br/><small>Nativity Church (Non-Profit Organization) | Nov 2019</small></b></ListItem>
@@ -237,9 +244,9 @@ export default function App() {
 
       <ListItem><b>Web Development Intern<br /><small>Selectiall | Oct 2018 - Dec 2018</small></b></ListItem>
       <ListInfo>
-        <ListItem>Site:&nbsp;<Link target="_blank" href="http://services.selectiall.com">http://services.selectiall.com</Link></ListItem>
-        <ListItem>Designed and implemented a database for the site.</ListItem>
-        <ListItem>Recreated the entire UI of the site using Bootstrap3.<br />Original version (Before redesign):&nbsp;<Link target="_blank" href="http://www.selectiall.com">https://www.selectiall.com</Link></ListItem>
+        <ListItem>Site:&nbsp;<Link target="_blank" href="https://selectiall.000webhostapp.com">https://selectiall.000webhostapp.com</Link></ListItem>
+        <ListItem>Designed and implemented a database for the site</ListItem>
+        <ListItem>Recreated the entire UI of the site using Bootstrap3</ListItem>
         <ListItem>Connected the front end to the back end of the site using PHP</ListItem>
       </ListInfo>
 
@@ -289,16 +296,16 @@ export default function App() {
       <ListItem><b>Parallax Effect Demonstration<br /><small>Mar 2019</small></b></ListItem>
       <ListInfo>
         <ListItem>Site:&nbsp;
-          <Link target="_blank" href="https://parallax-scene.netlify.com/">https://parallax-scene.netlify.com/
+          <Link target="_blank" href="https://parallax-scene.netlify.com">https://parallax-scene.netlify.com
           </Link></ListItem>
         <ListItem>Made layers of a vector image</ListItem>
         <ListItem>Created a web page that implements parallax effect when the user is on a laptop</ListItem>
       </ListInfo>
 
-      <ListItem><b>Complaint Management System<br /><small>Jan 2019 - Mar 2019</small></b></ListItem>
+      <ListItem><b>Complaint Management System<br/><small>Jan 2019 - Mar 2019</small></b></ListItem>
       <ListInfo>
-        <ListItem>Site:&nbsp;<Link target="_blank" href="https://bmsitcms.000webhostapp.com/">https://bmsitcms.000webhostapp.com/
-        </Link></ListItem>
+      <ListItem>Site:&nbsp;
+          <Link target="_blank" href="https://bmsitcms01.000webhostapp.com/">https://bmsitcms01.000webhostapp.com</Link></ListItem>
         <ListItem>Created the UI for both the student and administrator sides of the site</ListItem>
         <ListItem>Maintained documentation for both UI and working of system</ListItem>
       </ListInfo>
