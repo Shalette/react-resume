@@ -217,7 +217,7 @@ export default function App() {
       <Heading>Experience</Heading>
       <ListMain>
 
-      <ListItem><b>Front-end Developer<br /><small>Informatica | Jan 2020 - Ongoing</small></b></ListItem>
+      <ListItem><b>Cloud Support Intern<br /><small>Informatica | Jan 2020 - Ongoing</small></b></ListItem>
       <ListInfo>
         <ListItem>Working with cloud based software and replicating customer issues in order to resolve them</ListItem>
         <ListItem>Trained in Power Center & Cloud Data Integration</ListItem>
