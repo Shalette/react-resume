@@ -156,9 +156,9 @@ export default function App() {
           <Link target="_blank" href="https://github.com/Shalette">
           &nbsp;https://github.com/Shalette</Link>
         </ListItem>
-        <ListItem><b>Canva&nbsp;Profile:</b>
-          <Link target="_blank" href="https://www.canva.com/shalettedsouza">
-          &nbsp;https://www.canva.com/shalettedsouza</Link>
+        <ListItem><b>Dribbble&nbsp;Profile:</b>
+          <Link target="_blank" href="https://www.dribbble.com/Shalette">
+          &nbsp;https://www.dribbble.com/Shalette</Link>
         </ListItem>
       </ListMain>
 
