@@ -219,8 +219,9 @@ export default function App() {
 
       <ListItem><b>Cloud Support Intern<br /><small>Informatica | Jan 2020 - Ongoing</small></b></ListItem>
       <ListInfo>
+        <ListItem>Regularly communicate with clients to understand their needs and assist them accordingly.</ListItem>
         <ListItem>Working with cloud based software and replicating customer issues in order to resolve them</ListItem>
-        <ListItem>Trained in Power Center & Cloud Data Integration</ListItem>
+        <ListItem>Trained in Power Center &amp; Cloud Data Integration</ListItem>
         <ListItem>Learned working with Amazon ecosystems including S3, Salesforce and its related components such as Outbound messaging.</ListItem>
       </ListInfo>
 
