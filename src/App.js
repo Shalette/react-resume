@@ -165,8 +165,8 @@ export default function App() {
       <Heading>Skills</Heading>
       <ListMain>
         <ListItem><b>Programming Languages: </b>PHP, SQL, HTML, CSS, AJAX, JQuery, JavaScript, Java, Python, C</ListItem>
-        <ListItem><b>Frameworks, Libraries and Systems: </b>Google Materialize, Bootstrap, Material UI, CSS Grid, Flexbox, Django, React, Laravel, Flask</ListItem>
-        <ListItem><b>Software: </b>Inkscape, GIMP, Adobe XD, Adobe Photoshop, Adobe Illustrator</ListItem>
+        <ListItem><b>Frameworks, Libraries and Systems: </b>Google Materialize, Bootstrap, Material UI, CSS Grid, Flexbox, Django, React, Laravel</ListItem>
+        <ListItem><b>Software: </b>Inkscape, GIMP, Adobe XD, Adobe After Effects, Adobe InDesign, Adobe Photoshop, Adobe Illustrator</ListItem>
         <ListItem><b>Miscellaneous: </b>
           <ListSub>
             <ListItem>Strong Work Ethic</ListItem>
