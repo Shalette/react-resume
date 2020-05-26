@@ -77,10 +77,10 @@ const useStyles = makeStyles({
     fontSize: '1.6em',
     textAlign: 'center',
   },
-  left: {
+  right: {
     fontSize: '1.7em',
   },
-  right: {
+  left: {
     fontSize: '1.7em',
     background: '#c1f7e5',
   }
@@ -108,7 +108,7 @@ export default function App() {
         </Summary>
       </Grid>
 
-      <Grid id="left" className={classes.left} item sm={12} md={5} xs={12}>
+      <Grid id="right" className={classes.right} item sm={12} md={5} xs={12}>
 
       <Heading>Education</Heading>
       <div class="overflow">
@@ -213,7 +213,7 @@ export default function App() {
       </Grid>
 
     
-      <Grid id="right" className={classes.right} item sm={12} md={7} xs={12}>
+      <Grid id="left" className={classes.left} item sm={12} md={7} xs={12}>
       <Heading>Experience</Heading>
       <ListMain>
 
