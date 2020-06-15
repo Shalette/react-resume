@@ -217,7 +217,7 @@ export default function App() {
       <Heading>Experience</Heading>
       <ListMain>
 
-      <ListItem><b>Cloud Support Intern<br /><small>Informatica | Jan 2020 - Ongoing</small></b></ListItem>
+      <ListItem><b>Cloud Support Intern<br /><small>Informatica | Jan 2020 - Jun 2020</small></b></ListItem>
       <ListInfo>
         <ListItem>Regularly communicate with clients to understand their needs and assist them accordingly.</ListItem>
         <ListItem>Working with cloud based software and replicating customer issues in order to resolve them</ListItem>
@@ -307,7 +307,7 @@ export default function App() {
       <ListItem><b>Complaint Management System<br/><small>Jan 2019 - Mar 2019</small></b></ListItem>
       <ListInfo>
       <ListItem>Site:&nbsp;
-          <Link target="_blank" href="https://bmsitcms01.000webhostapp.com/">https://bmsitcms01.000webhostapp.com</Link></ListItem>
+          <Link target="_blank" href="https://bmsitcms.000webhostapp.com/">https://bmsitcms01.000webhostapp.com</Link></ListItem>
         <ListItem>Created the UI for both the student and administrator sides of the site</ListItem>
         <ListItem>Maintained documentation for both UI and working of system</ListItem>
       </ListInfo>
