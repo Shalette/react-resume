@@ -95,7 +95,7 @@ export default function App() {
 
       <Grid className={classes.title} item xs={12}>
         <Name>Shalette D'Souza</Name>
-        <p>Front end developer &amp; student at BMSIT&nbsp;&&nbsp;M</p>
+        <p>Designer &amp; student at BMSIT&nbsp;&&nbsp;M</p>
         <Line></Line>
         <Summary>
           <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;8861556855</Link> <br/>
