@@ -95,10 +95,9 @@ export default function App() {
 
       <Grid className={classes.title} item xs={12}>
         <Name>Shalette D'Souza</Name>
-        <p>Designer &amp; student at BMSIT&nbsp;&&nbsp;M</p>
         <Line></Line>
         <Summary>
-          <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;8861556855</Link> <br/>
+          <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;9513495251</Link> <br/>
           <b>Email:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="mailto:shalettedsouza@gmail.com">&nbsp;&nbsp;shalettedsouza@gmail.com</Link>
           <br/><br/>
           {/* <center>
@@ -109,9 +108,32 @@ export default function App() {
       </Grid>
 
       <Grid id="right" className={classes.right} item sm={12} md={5} xs={12}>
+      <Heading>Profile Links</Heading>
+      <ListMain>
+        <ListItem><b>My Designs: </b>
+            <Link target="_blank" href="https://tiny.cc/ShaletteDesigns">
+            &nbsp;https://tiny.cc/ShaletteDesigns</Link>
+          </ListItem>
+        <ListItem><b>Linkedin&nbsp;Profile:</b>
+          <Link target="_blank" href="https://in.linkedin.com/in/shalette-d-souza">
+          &nbsp;https://in.linkedin.com/in/shalette-d-souza</Link>
+        </ListItem>
+          <ListItem><b>Website:</b>
+          <Link target="_blank"  href="https://shalette.github.io/">
+          &nbsp;https://shalette.github.io</Link>
+        </ListItem>
+        <ListItem><b>Github&nbsp;Profile:</b>
+          <Link target="_blank" href="https://github.com/Shalette">
+          &nbsp;https://github.com/Shalette</Link>
+        </ListItem>
+        <ListItem><b>Dribbble&nbsp;Profile:</b>
+          <Link target="_blank" href="https://www.dribbble.com/Shalette">
+          &nbsp;https://www.dribbble.com/Shalette</Link>
+        </ListItem>
+      </ListMain>
 
       <Heading>Education</Heading>
-      <div class="overflow">
+      <div>
         <table>
           <thead><tr><th>Qualification</th><th>Board</th><th>Institute</th><th>Year Of Passing</th><th>Score</th></tr></thead>
           <tbody>
@@ -119,8 +141,8 @@ export default function App() {
               <td>B.E.</td>
               <td>V.T.U.</td>
               <td>BMS Institute of Technology</td>
-              <td>2020 (to be completed)</td>
-              <td>8.13 (CGPA up to 6th semester)</td>
+              <td>2020</td>
+              <td>8.15</td>
             </tr>
 
             <tr>
@@ -142,31 +164,12 @@ export default function App() {
         </table>
       </div>
 
-      <Heading>Profile Links</Heading>
-      <ListMain>
-        <ListItem><b>Linkedin&nbsp;Profile:</b>
-          <Link target="_blank" href="https://in.linkedin.com/in/shalette-d-souza">
-          &nbsp;https://in.linkedin.com/in/shalette-d-souza</Link>
-        </ListItem>
-          <ListItem><b>Website:</b>
-          <Link target="_blank"  href="https://shalette.github.io/">
-          &nbsp;https://shalette.github.io</Link>
-        </ListItem>
-        <ListItem><b>Github&nbsp;Profile:</b>
-          <Link target="_blank" href="https://github.com/Shalette">
-          &nbsp;https://github.com/Shalette</Link>
-        </ListItem>
-        <ListItem><b>Dribbble&nbsp;Profile:</b>
-          <Link target="_blank" href="https://www.dribbble.com/Shalette">
-          &nbsp;https://www.dribbble.com/Shalette</Link>
-        </ListItem>
-      </ListMain>
 
       <Heading>Skills</Heading>
       <ListMain>
         <ListItem><b>Programming Languages: </b>PHP, SQL, HTML, CSS, AJAX, JQuery, JavaScript, Java, Python, C</ListItem>
         <ListItem><b>Frameworks, Libraries and Systems: </b>Google Materialize, Bootstrap, Material UI, CSS Grid, Flexbox, Django, React, Laravel</ListItem>
-        <ListItem><b>Software: </b>Inkscape, GIMP, Adobe XD, Adobe After Effects, Adobe InDesign, Adobe Photoshop, Adobe Illustrator</ListItem>
+        <ListItem><b>Software: </b>Inkscape, GIMP, Adobe XD, Figma, Adobe After Effects, Adobe InDesign, Adobe Photoshop, Adobe Illustrator</ListItem>
         <ListItem><b>Miscellaneous: </b>
           <ListSub>
             <ListItem>Strong Work Ethic</ListItem>
@@ -199,6 +202,7 @@ export default function App() {
 
       <Heading>Workshops&nbsp;&amp; Certifications</Heading>
       <ListMain>
+        <ListItem>Shaw Academy – Graphic Design<br /><small>May 2020</small></ListItem>
         <ListItem>Google QuikLabs
           <ListSub>
               <ListItem>Baseline: Data, ML, AI <br /><small>Aug 2019</small></ListItem>
@@ -206,8 +210,8 @@ export default function App() {
           </ListSub>
         </ListItem>
         <ListItem>MTA: Introduction to Programming Using JavaScript<br /><small>Feb 2019 </small></ListItem>
-        <ListItem>Internshala - Web Development<br /><small>Sept 2018</small></ListItem>
-        <ListItem>5 Days Open Course on Understanding Blockchain at BMSIT&M<br /><small>Aug 2018</small>
+        <ListItem>Internshala – Web Development<br /><small>Sept 2018</small></ListItem>
+        <ListItem>5 Days Open Course on Understanding Blockchain at BMSIT&amp;M<br /><small>Aug 2018</small>
         </ListItem>
       </ListMain>
       </Grid>
@@ -216,13 +220,21 @@ export default function App() {
       <Grid id="left" className={classes.left} item sm={12} md={7} xs={12}>
       <Heading>Experience</Heading>
       <ListMain>
+      <ListItem><b>Design Intern<br /><small>Rovia Solutions | July 2020 - Present</small></b></ListItem>
+      <ListInfo>
+        <ListItem>Designed the UI for Bliss Galore: <Link target="_blank" href="https://blissgalore.com">https://blissgalore.com</Link></ListItem>
+        <ListItem>Designed the UI for Silicon Suites: <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link></ListItem>
+        <ListItem>Improved the responsivess of the UI for Rovia Solutions: <Link target="_blank" href="https://roviasolutions.com">https://roviasolutions.com</Link></ListItem>
+        <ListItem>Created logos, business cards, flyers, brochures, banners, stickers, &amp; social media posts for a range of companies from startups to hotel chains</ListItem>
+        <ListItem>Reached out to various companies &amp; marketed Rovia's products</ListItem>
+      </ListInfo>
 
       <ListItem><b>Cloud Support Intern<br /><small>Informatica | Jan 2020 - Jun 2020</small></b></ListItem>
       <ListInfo>
-        <ListItem>Regularly communicate with clients to understand their needs and assist them accordingly.</ListItem>
+        <ListItem>Regularly communicated with clients to understand their needs and assist them accordingly.</ListItem>
         <ListItem>Working with cloud based software and replicating customer issues in order to resolve them</ListItem>
         <ListItem>Trained in Power Center &amp; Cloud Data Integration</ListItem>
-        <ListItem>Learned working with Amazon ecosystems including S3, Salesforce and its related components such as Outbound messaging.</ListItem>
+        <ListItem>Learned working with Amazon ecosystems including S3, Salesforce and its related components such as Outbound messaging</ListItem>
       </ListInfo>
 
       <ListItem><b>Front-end Developer<br /><small>Urbanstop | Nov 2019 - Jan 2020</small></b></ListItem>
@@ -266,12 +278,13 @@ export default function App() {
       <Heading>Projects</Heading>
 
       <ListMain>
-      <ListItem><b>InfoCrypt<br /><small>Sept 2019 - Ongoing</small></b></ListItem>
+      <ListItem><b>InfoCrypt<br /><small>Sept 2019 - May 2020</small></b></ListItem>
       <ListInfo>
         <ListItem>Implemented a basic version of partially homomorphic system (Paillier's Encryption)</ListItem>
-        <ListItem>Researching methods to perform machine learning on encrypted data</ListItem>
-        <ListItem>Working on a literature survey of existing methods</ListItem>
-        <ListItem>Working on a paper that elaborates the methodology of proposed system</ListItem>
+        <ListItem>Designed &amp; created the UI using React</ListItem>
+        <ListItem>Researched methods to perform machine learning on encrypted data</ListItem>
+        <ListItem>Worked on a literature survey of existing methods</ListItem>
+        <ListItem>Published a paper that elaborates the methodology of proposed system</ListItem>
       </ListInfo>
 
       <ListItem><b>Profile Filter<br /><small>July 2019</small></b></ListItem>
@@ -307,7 +320,7 @@ export default function App() {
       <ListItem><b>Complaint Management System<br/><small>Jan 2019 - Mar 2019</small></b></ListItem>
       <ListInfo>
       <ListItem>Site:&nbsp;
-          <Link target="_blank" href="https://bmsitcms.000webhostapp.com/">https://bmsitcms01.000webhostapp.com</Link></ListItem>
+          <Link target="_blank" href="https://bmsitcms.000webhostapp.com/">https://bmsitcms.000webhostapp.com</Link></ListItem>
         <ListItem>Created the UI for both the student and administrator sides of the site</ListItem>
         <ListItem>Maintained documentation for both UI and working of system</ListItem>
       </ListInfo>
