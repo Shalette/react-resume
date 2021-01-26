@@ -100,10 +100,10 @@ export default function App() {
           <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;9513495251</Link> <br/>
           <b>Email:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="mailto:shalettedsouza@gmail.com">&nbsp;&nbsp;shalettedsouza@gmail.com</Link>
           <br/><br/>
-          {/* <center>
+          <center>
             <small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
             </Link></small>
-          </center> */}
+          </center>
         </Summary>
       </Grid>
 
@@ -142,7 +142,7 @@ export default function App() {
               <td>V.T.U.</td>
               <td>BMS Institute of Technology</td>
               <td>2020</td>
-              <td>8.15</td>
+              <td>8.26</td>
             </tr>
 
             <tr>
@@ -220,10 +220,18 @@ export default function App() {
       <Grid id="left" className={classes.left} item sm={12} md={7} xs={12}>
       <Heading>Experience</Heading>
       <ListMain>
-      <ListItem><b>Design Intern<br /><small>Rovia Solutions | July 2020 - Present</small></b></ListItem>
+      <ListItem><b>Design Intern<br /><small>Obladi Creatives | Oct 2020 - Present</small></b></ListItem>
+      <ListInfo>
+        <ListItem>Created social media posts and videos for clients<Link target="_blank" href="https://blissgalore.com">https://blissgalore.com</Link></ListItem>
+        <ListItem>Handled wireframing and prototyping sites for clients <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link></ListItem>
+        <ListItem>Improved the responsivess of the UI for Rovia Solutions: <Link target="_blank" href="https://roviasolutions.com">https://roviasolutions.com</Link></ListItem>
+        <ListItem>Worked on building a brand for Obladi – everything ranging from colour, font and vector styles to design rules for print and web</ListItem>
+      </ListInfo>
+
+      <ListItem><b>Design Intern<br /><small>Rovia Solutions | July 2020 - Oct 2020</small></b></ListItem>
       <ListInfo>
         <ListItem>Designed the UI for Bliss Galore: <Link target="_blank" href="https://blissgalore.com">https://blissgalore.com</Link></ListItem>
-        <ListItem>Designed the UI for Silicon Suites: <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link></ListItem>
+        <ListItem>Designed the UI for Silicon Suites &amp; Inn: <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link>, <Link target="_blank" href="https://siliconinn.com">https://siliconinn.com</Link></ListItem>
         <ListItem>Improved the responsivess of the UI for Rovia Solutions: <Link target="_blank" href="https://roviasolutions.com">https://roviasolutions.com</Link></ListItem>
         <ListItem>Created logos, business cards, flyers, brochures, banners, stickers, &amp; social media posts for a range of companies from startups to hotel chains</ListItem>
         <ListItem>Reached out to various companies &amp; marketed Rovia's products</ListItem>
