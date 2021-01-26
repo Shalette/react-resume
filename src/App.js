@@ -100,10 +100,10 @@ export default function App() {
           <b>Phone Number:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="tel:+918861556855">&nbsp;&nbsp;+91&nbsp;9513495251</Link> <br/>
           <b>Email:</b><Link target="_blank" style={{color: "#d3d3d3"}} href="mailto:shalettedsouza@gmail.com">&nbsp;&nbsp;shalettedsouza@gmail.com</Link>
           <br/><br/>
-          <center>
+          {/* <center>
             <small>View the most recent version of this resume at <Link style={{color: "#d3d3d3"}} target="_blank" href="https://shalette-resume.herokuapp.com">https://shalette-resume.herokuapp.com
             </Link></small>
-          </center>
+          </center> */}
         </Summary>
       </Grid>
 
@@ -169,7 +169,7 @@ export default function App() {
       <ListMain>
         <ListItem><b>Programming Languages: </b>PHP, SQL, HTML, CSS, AJAX, JQuery, JavaScript, Java, Python, C</ListItem>
         <ListItem><b>Frameworks, Libraries and Systems: </b>Google Materialize, Bootstrap, Material UI, CSS Grid, Flexbox, Django, React, Laravel</ListItem>
-        <ListItem><b>Software: </b>Inkscape, GIMP, Adobe XD, Figma, Adobe After Effects, Adobe InDesign, Adobe Photoshop, Adobe Illustrator</ListItem>
+        <ListItem><b>Software: </b>Adobe XD, Figma, Adobe After Effects, Adobe Premiere Pro, Adobe InDesign, Adobe Photoshop, Adobe Illustrator, Inkscape, GIMP</ListItem>
         <ListItem><b>Miscellaneous: </b>
           <ListSub>
             <ListItem>Strong Work Ethic</ListItem>
@@ -222,16 +222,15 @@ export default function App() {
       <ListMain>
       <ListItem><b>Design Intern<br /><small>Obladi Creatives | Oct 2020 - Present</small></b></ListItem>
       <ListInfo>
-        <ListItem>Created social media posts and videos for clients<Link target="_blank" href="https://blissgalore.com">https://blissgalore.com</Link></ListItem>
-        <ListItem>Handled wireframing and prototyping sites for clients <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link></ListItem>
-        <ListItem>Improved the responsivess of the UI for Rovia Solutions: <Link target="_blank" href="https://roviasolutions.com">https://roviasolutions.com</Link></ListItem>
-        <ListItem>Worked on building a brand for Obladi – everything ranging from colour, font and vector styles to design rules for print and web</ListItem>
+        <ListItem>Created social media posts, product mockups and videos for clients</ListItem>
+        <ListItem>Handled the wireframing, designing and prototyping of websites</ListItem>
+        <ListItem>Worked on building a brand for Obladi – ranging from colour, font and vector styles to design rules for print and web</ListItem>
       </ListInfo>
 
       <ListItem><b>Design Intern<br /><small>Rovia Solutions | July 2020 - Oct 2020</small></b></ListItem>
       <ListInfo>
         <ListItem>Designed the UI for Bliss Galore: <Link target="_blank" href="https://blissgalore.com">https://blissgalore.com</Link></ListItem>
-        <ListItem>Designed the UI for Silicon Suites &amp; Inn: <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link>, <Link target="_blank" href="https://siliconinn.com">https://siliconinn.com</Link></ListItem>
+        <ListItem>Designed the UI for Silicon Inn &amp; Suites: <Link target="_blank" href="https://siliconinn.com">https://siliconinn.com</Link>, <Link target="_blank" href="https://siliconsuites.in">https://siliconsuites.in</Link></ListItem>
         <ListItem>Improved the responsivess of the UI for Rovia Solutions: <Link target="_blank" href="https://roviasolutions.com">https://roviasolutions.com</Link></ListItem>
         <ListItem>Created logos, business cards, flyers, brochures, banners, stickers, &amp; social media posts for a range of companies from startups to hotel chains</ListItem>
         <ListItem>Reached out to various companies &amp; marketed Rovia's products</ListItem>
@@ -256,12 +255,6 @@ export default function App() {
         <ListItem>Designed the logo for the carol competition – Noelle Cantora</ListItem>
         <ListItem>Created multiple posters to advertise the competition</ListItem>
         <ListItem>Made certificates and stickers</ListItem>        
-      </ListInfo>
-
-      <ListItem><b>Design Intern<br /><small>CocoFresh | Sept 2019</small></b></ListItem>
-      <ListInfo>
-        <ListItem>Designed the logo for the company, with the input of the founders</ListItem>
-        <ListItem>Created the brand stickers that goes on the products being sold</ListItem>
       </ListInfo>
 
       <ListItem><b>Web Development Intern<br /><small>Selectiall | Oct 2018 - Dec 2018</small></b></ListItem>
@@ -293,12 +286,6 @@ export default function App() {
         <ListItem>Researched methods to perform machine learning on encrypted data</ListItem>
         <ListItem>Worked on a literature survey of existing methods</ListItem>
         <ListItem>Published a paper that elaborates the methodology of proposed system</ListItem>
-      </ListInfo>
-
-      <ListItem><b>Profile Filter<br /><small>July 2019</small></b></ListItem>
-      <ListInfo>
-        <ListItem>Created a basic filter to search user profiles based on skill set using Laravel</ListItem>
-        <ListItem>Implemented Bootstrap4 to create the UI</ListItem>
       </ListInfo>
 
       <ListItem><b>Sniprise<br /><small>Mar 2019 - May 2019</small></b></ListItem>
